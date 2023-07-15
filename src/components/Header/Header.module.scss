@@ -1,0 +1,96 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 128px;
+  border: 0;
+  border-bottom-width: 1px;
+  border-color: #EAEAEA;;
+  border-style: solid;
+}
+  
+.leftHeader {
+  display: flex;
+  align-items: center;
+  margin-left: 45px;
+  flex-shrink: 0;
+
+  h3 {
+    color: #000;
+    font-size: 20px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  
+  p {
+    color: #9D9D9D;
+    font-size: 14px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+  }
+}
+  
+.logo {
+  margin-right: 16px;
+}
+  
+.rightHeader {
+  display: flex;
+  align-items: center;
+  margin-right: 63px;
+  flex-shrink: 0;
+}
+  
+.favourite {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+  
+.cart {
+  span {
+    margin-left: 12px;
+    color: #5C5C5C;
+    font-size: 14px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;      
+  }
+}
+
+
+.cartButton,
+.favouriteButton,
+.userButton {
+  border: none;
+  background-color: transparent;
+}
+
+.cartButton {
+  width: 20px;
+  height: 20px;
+  vertical-align: bottom;
+}
+
+.favouriteButton {
+  width: 21.111px;
+  height: 19px;
+}
+
+.userButton {
+  width: 20px;
+  height: 20px;
+}
+
+.cartButton:hover,
+.favouriteButton:hover,
+.userButton:hover {
+  cursor: pointer;
+}

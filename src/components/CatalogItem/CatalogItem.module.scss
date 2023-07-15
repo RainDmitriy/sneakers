@@ -1,0 +1,85 @@
+.catalogItem {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-radius: 40px;
+    border: 1px solid #F3F3F3;
+    background: #FFF;
+    width: 210px;
+    height: 260px;
+    flex-shrink: 0;
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+  
+.catalogItem:hover {
+    border: 1px solid #F8F8F8;
+    box-shadow: 0px 14px 30px 0px rgba(0, 0, 0, 0.05);
+    transform: translateY(-10px);
+}
+  
+.itemImg {
+    margin-top: 20px;
+    margin-left: 33px;
+    margin-right: 44px;
+    margin-bottom: 14px;
+}
+
+.itemName {
+    color: #000;
+    font-size: 14px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    width: 150px;
+    flex-direction: column;
+    flex-shrink: 0;
+    margin-right: 29px;
+    margin-left: 31px;
+    
+    p {
+      margin: 0;
+    }
+  }
+.itemPrice {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 14px;
+    margin-left: 30px;
+    margin-right: 29px;
+  
+    p {
+      color: #BDBDBD;
+      font-size: 11px;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      text-transform: uppercase;
+      margin: 0;
+    }
+  
+    h5 {
+      margin: 0;
+      color: #000;
+      font-size: 14px;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+}
+
+
+.like {
+    position: absolute;
+    top: 29px;
+    left: 30px;
+}
+  
+.toAdd:hover, .like:hover {
+    cursor: pointer;
+}
+
+  
